@@ -72,7 +72,7 @@ data
 
       var weather = document.createElement("button");
       weather.setAttribute("class", "btn btn-outline-dark");
-      weather.innerHTML = "weather";
+      weather.innerHTML = "Get Weather";
       weather.addEventListener("click", function () {
         weatherData(res[i].name);
       });
